@@ -1,0 +1,86 @@
+h1 {
+    color:goldenrod;
+    background-color: antiquewhite;
+    font-stretch: ultra-expanded;
+    text-align: center;
+
+    font-size: 50px;
+}
+h2{  
+    color: deeppink;
+    background-color: rgb(222, 157, 157);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: Verdana;
+}
+#ponuka{
+    color: rgb(4, 189, 128);
+}
+.ponukaTitle{
+    background-color: rgb(255, 205, 253);
+}
+div.ponukaTitle{
+    font-style: oblique;
+}
+.ponuka{
+    background-image: url("./images/wood.jpg");
+}
+.jedalnyListok{
+    display: inline-block;
+}
+.pizzaBullets{
+    color: aliceblue;
+    background-image: url(./images/pizza.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    background-position: left center;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+
+    filter: drop-shadow(5px 5px 5px #222);
+
+    /*center*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ponuka_img{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px rgb(93, 43, 43);
+    border-radius: 8px;
+    filter: drop-shadow(5px 5px 5px #000000);
+}
+.pizzabox{
+    display: inline-block;
+}
+.bold{
+    font-weight: bold;
+}
+.pizzaList{
+    list-style-type: none;
+}
+.fotogaleria_image{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px rgb(93, 43, 43);
+    border-radius: 8px;
+}
+.kontaktImage{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+nav{
+    text-align:center;
+}
+
+
