@@ -1,18 +1,24 @@
 h1 {
     color:goldenrod;
-    background-color: antiquewhite;
     font-stretch: ultra-expanded;
     text-align: center;
 
     font-size: 50px;
+}
+header{
+    background-image: url("./images/wood.jpg");
 }
 h2{  
     color: deeppink;
     background-color: rgb(222, 157, 157);
     font-family: Arial, Helvetica, sans-serif;
 }
+h2:hover{
+    background-color: rgb(206, 164, 164);
+}
 body{
     font-family: Verdana;
+    background-color: bisque;
 }
 #ponuka{
     color: rgb(4, 189, 128);
@@ -22,9 +28,6 @@ body{
 }
 div.ponukaTitle{
     font-style: oblique;
-}
-.ponuka{
-    background-image: url("./images/wood.jpg");
 }
 .jedalnyListok{
     display: inline-block;
@@ -58,7 +61,7 @@ div.ponukaTitle{
     border-radius: 8px;
     filter: drop-shadow(5px 5px 5px #000000);
 }
-.pizzabox{
+.pizzabox{  
     display: inline-block;
 }
 .bold{
@@ -81,6 +84,11 @@ div.ponukaTitle{
 }
 nav{
     text-align:center;
+}
+a.odkaz{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
 }
 
 
