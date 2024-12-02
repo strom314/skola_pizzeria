@@ -1,5 +1,13 @@
+/* 
+#A2D2DF modra
+#F6EFBD zlta
+#E4C087 hneda
+#BC7C7C cervena
+#d43d63 tmava cervena
+*/
+
 h1 {
-    color:goldenrod;
+    color: #A2D2DF;
     font-stretch: ultra-expanded;
     text-align: center;
 
@@ -11,36 +19,31 @@ header{
     background-image: url("./images/wood.jpg");
 }
 h2{  
-    color: deeppink;
-    background-color: rgb(222, 157, 157);
+    color: #d43d63;
+    background-color: #E4C087;
+
+
     font-family: Arial, Helvetica, sans-serif;
+
+    padding-left: 20px;
 
     border-width: 5px;
     border-style: outset;
-    border-color: pink;
+    border-color: #E4C087;
     border-radius: 5px;
 }
 h2:hover{
-    background-color: rgb(206, 164, 164);
+    filter: drop-shadow(5px 5px 5px #00000032);
 }
 body{
     font-family: Verdana;
-    background-color: bisque;
-}
-#ponuka{
-    color: rgb(4, 189, 128);
-}
-.ponukaTitle{
-    background-color: rgb(255, 205, 253);
-}
-div.ponukaTitle{
-    font-style: oblique;
+    background-color: #F6EFBD ;
 }
 .jedalnyListok{
     display: inline-block;
 }
 .pizzaBullets{
-    color: aliceblue;
+    color: #BC7C7C;
     background-image: url(./images/pizza.png);
     background-size: 15px 15px;
     background-repeat: no-repeat;
@@ -59,12 +62,12 @@ div.ponukaTitle{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 }
 .ponuka_img{
     height: 200px;
     width: 200px;
     display: inline-block;
-    border: 5px rgb(93, 43, 43);
     border-radius: 8px;
     filter: drop-shadow(5px 5px 5px #000000);
 }
@@ -82,6 +85,8 @@ div.ponukaTitle{
     width: 200px;
     display: inline-block;
     border-radius: 8px;
+    margin-right: 20px;
+    margin-left: 10px;
 }
 .kontaktImage{
     height: 50px;
@@ -93,16 +98,28 @@ nav{
 }
 a.odkaz{
     text-decoration: none;
-    color: grey;
+    color: #BC7C7C;
     font-weight: bold;
 }
 header button{
-    background-color: lightgrey;
-    border-radius: 4px;
-}
-header button:hover{
-    background-color: sandybrown;
+    background-color: #E4C087;
+    border-color: #E4C087;
     border-radius: 8px;
 }
+header button:hover{
+    border-radius: 6px;
+    background-color: #f8d397;
+}
 
-
+table, th, td{
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    padding:10px;
+}
+#column1{
+    background-color: #BC7C7C;
+}
+.lightBrownTableColumn{
+    background-color: #f8d397;
+}
