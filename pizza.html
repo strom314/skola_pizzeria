@@ -2,6 +2,8 @@
 <head>
     <title> pizzeria pes</title>
     <link rel="stylesheet" href="pizza_style.css">
+    <script src="./script.js"></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 
@@ -86,7 +88,7 @@
         </div>
         <div class="jedalnyListok">
             <ul>
-                <li><a class="odkaz" target="_blank" title="freepizza.com" href="https://youtu.be/p7YXXieghto">free pizza tu!</a></li>
+                <li><a class="odkaz scam-button" target="_blank" title="freepizza.com">free pizza tu!</a></li>
             </ul>
             
         </div>
@@ -104,7 +106,7 @@
     </div>
 
     <!-- tabulka pizz -->
-     <table>
+     <table class="pizza-container">
         <tr id="column1">
             <th>Pizza</th>
             <th>cena</th>
@@ -113,22 +115,22 @@
         <tr>
             <td>Margarita</td>
             <td>9,90€</td>
-            <td>550g</td>
+            <td rowspan="2">550g</td>
         </tr>
         <tr class="lightBrownTableColumn">
             <td>pepperoni</td>
             <td>6,50€</td>
-            <td>500g</td>
+            <!-- <td rowspan="2">500g</td> -->
         </tr>
         <tr>
-            <td>Margarita</td>
-            <td>9,90€</td>
-            <td>550g</td>
+            <td>Quatro formaji</td>
+            <td>12,90€</td>
+            <td rowspan="2">800g</td>
         </tr>
         <tr class="lightBrownTableColumn">
-            <td>pepperoni</td>
-            <td>6,50€</td>
-            <td>500g</td>
+            <td>cardinale</td>
+            <td>11,50€</td>
+            <!-- <td>500g</td> -->
         </tr>
      </table>
 
